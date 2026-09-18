@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>문의하기 페이지</title>
+    <meta name="description" content="웹사이트 문의하기 페이지입니다.">
+    <meta property="og:title" content="문의하기 페이지">
+    <meta property="og:description" content="웹사이트 문의사항을 작성하는 페이지입니다.">
+    <meta property="og:url" content="https://example.com/week3/index.html">
+</head>
+<body>
+    <header>
+        <h1>저에 대해 궁금하신가요?</h1>
+        <p>궁금한 게 있다면 편하게 남겨주세요!</p>
+        <a href="https://i.pinimg.com/1200x/3c/05/4b/3c054b475cbdda1bcbc43a8e27fc19ba.jpg">
+            <img src="profile.jpg" alt="프로필 대표 이미지"  width="400">
+</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>문의하기 폼</h2>
+
+            <form>
+                    <label for="name">이름</label>
+                    <input type="text" id="name" name="name" required placeholder="이름을 입력하세요."><br>
+
+
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="email" required placeholder="이메일을 입력하세요."><br>
+
+                    <label for="inquiry">무슨 일로 오셨나여?</label>
+                    <select id="inquiry" name="inquiry">
+                        <option value="hello">그냥 놀러왔어여</option>
+                        <option value="question">궁금한 게 있어여</option>
+                        <option value="work">같이 하고 싶은 게 있어여</option>
+                        <option value="etc">기타</option>
+                    </select>
+                    <br>
+                    <label for="description">하고 싶은 말을 적어주세요ㅎ.ㅎ💬</label><br>
+                    <textarea id="description" name="description"
+                    placeholder="편하게 적어주세여 :)"></textarea>
+                    <button type="submit">보내기 💌</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 정지수에게 문의하기. All rights reserved.</p>
+    </footer>
+</body>
+</html>
